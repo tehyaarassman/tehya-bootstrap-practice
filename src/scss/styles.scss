@@ -5,6 +5,12 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+#nav {
+  width: 100%;
+}
+.txt:hover {
+  text-decoration: underline;
+}
 
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
