@@ -5,14 +5,58 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+// Import Bootstrap styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import partials here
 #nav {
   width: 100%;
 }
 .txt:hover {
   text-decoration: underline;
 }
-
-// Import Bootstrap styles
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
-// Import partials here
+.jumbotron {
+  background: #ffffff url(../img/pirate-ship.jpg) no-repeat right top; 
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2.5rem;
+}
+.lead{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+}
+.pirate {
+  width: 300px;
+  height: 350px;
+}
+.by-line{
+  margin-bottom: 0;
+  margin-top: .6px;
+}
+.source-line {
+  margin-top: 0;
+  font-size: 12px;
+}
+.carousel-inner {
+  margin-bottom: 30px;
+  height: 350px;
+}
+.pirate-pete {
+  margin-bottom: 30px;
+}
+.pirate-life {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+}
